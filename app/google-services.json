@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "412092256912",
+    "firebase_url": "https://asmagreenhouse.firebaseio.com",
+    "project_id": "asmagreenhouse",
+    "storage_bucket": "asmagreenhouse.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:412092256912:android:0fc0be277c2363c7",
+        "android_client_info": {
+          "package_name": "com.asma.android.testfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "412092256912-2f9311kdgac2d5nvimq8jmhunpsaj0u3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.asma.android.testfirebase",
+            "certificate_hash": "a928a1bc99ac52a0101a67e730711d8792751957"
+          }
+        },
+        {
+          "client_id": "412092256912-smlim5n8ijmibrkkraae8cei2vd7735p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANGkhAnSnvPg20HZcKVSP2cDYNoZrEIjg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "412092256912-smlim5n8ijmibrkkraae8cei2vd7735p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

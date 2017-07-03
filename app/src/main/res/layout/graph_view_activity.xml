@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardScrollingHUMIDITY"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            card_view:cardBackgroundColor="@android:color/white"
+            card_view:cardElevation="2sp"
+            card_view:cardUseCompatPadding="true">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="16dp">
+
+                <com.jjoe64.graphview.GraphView
+                    android:id="@+id/graphHUMIDITY"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp" />
+
+                <TextView
+                    android:id="@+id/titleHUMIDITY"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/graphHUMIDITY"
+                    android:layout_marginTop="8dp"
+                    android:maxLines="3"
+                    android:text="HUMIDITY"
+                    android:textColor="#222"
+                    android:textSize="22dp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:visibility="invisible"
+                    android:id="@+id/imgFullscreenHUMIDITY"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignTop="@id/titleHUMIDITY"
+                    android:layout_margin="5dp"
+                    android:src="@drawable/fullscreen" />
+
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardScrollingTEMPERATURE"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            card_view:cardBackgroundColor="@android:color/white"
+            card_view:cardElevation="2sp"
+            card_view:cardUseCompatPadding="true">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="16dp">
+
+                <com.jjoe64.graphview.GraphView
+                    android:id="@+id/graphTEMPERATURE"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp" />
+
+                <TextView
+                    android:id="@+id/titleTEMPERATURE"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/graphTEMPERATURE"
+                    android:layout_marginTop="8dp"
+                    android:maxLines="3"
+                    android:text="TEMPERATURE"
+                    android:textColor="#222"
+                    android:textSize="22dp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/imgFullscreenTEMPERATURE"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:visibility="invisible"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignTop="@id/titleTEMPERATURE"
+                    android:layout_margin="5dp"
+                    android:src="@drawable/fullscreen" />
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardScrollingLIGHT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            card_view:cardBackgroundColor="@android:color/white"
+            card_view:cardElevation="2sp"
+            card_view:cardUseCompatPadding="true">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="16dp">
+
+                <com.jjoe64.graphview.GraphView
+                    android:id="@+id/graphLIGHT"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp" />
+
+                <TextView
+                    android:id="@+id/titleLIGHT"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/graphLIGHT"
+                    android:layout_marginTop="8dp"
+                    android:maxLines="3"
+                    android:text="LIGHT"
+                    android:textColor="#222"
+                    android:textSize="22dp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/imgFullscreenLIGHT"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:visibility="invisible"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignTop="@id/titleLIGHT"
+                    android:layout_margin="5dp"
+                    android:src="@drawable/fullscreen" />
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+</ScrollView>
