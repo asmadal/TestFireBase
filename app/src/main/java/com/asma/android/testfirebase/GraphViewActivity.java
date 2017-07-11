@@ -136,6 +136,7 @@ public class GraphViewActivity extends AppCompatActivity {
 
     }
 
+
     @Override
     public void onResume() {
         super.onResume();
